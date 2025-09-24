@@ -7,8 +7,8 @@ import (
 
 	secretmanager "cloud.google.com/go/secretmanager/apiv1"
 	secretmanagerpb "cloud.google.com/go/secretmanager/apiv1/secretmanagerpb"
-	"github.com/cockroachdb/errors"
 	"github.com/numbergroup/cleanenv"
+	"github.com/numbergroup/errors"
 )
 
 func LoadJSONSecretsIntoEnvThenUpdateConfig(ctx context.Context, secretClient *secretmanager.Client, secrets []string, confPtr any) error {
