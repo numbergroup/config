@@ -39,5 +39,5 @@ func LoadJSONSecretsIntoEnvThenUpdateConfig(ctx context.Context, secretClient *s
 		}
 
 	}
-	return cleanenv.UpdateEnv(confPtr)
+	return cleanenv.ReadEnv(confPtr)
 }
