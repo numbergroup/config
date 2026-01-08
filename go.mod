@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go/secretmanager v1.16.0
 	github.com/numbergroup/cleanenv v1.7.2
 	github.com/numbergroup/errors v1.0.0
-	github.com/numbergroup/log v1.1.10
+	github.com/numbergroup/log v1.1.11
 	github.com/sirupsen/logrus v1.9.3
 )
 
@@ -21,7 +21,7 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/s2a-go v0.1.9 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.3.8 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.3.9 // indirect
 	github.com/googleapis/gax-go/v2 v2.16.0 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
